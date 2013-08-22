@@ -15,6 +15,10 @@ define([
 				});
 			},
 
+			_updateComponentsIndexKey: function() {
+				this._componentsKey = _.keys(this._components).sort().join('-');
+			},
+
 			broadcastComponentUpdates: function() {
 				_(this._components).each(function(component, name) {
 					var events = component.flushUpdatedProperties();
@@ -51,6 +55,7 @@ define([
 
 				this._components[name] = newComponent;
 
+				this._updateComponentsIndexKey();
 				this._entityManager.updateIndex(this);
 
 				return this;
@@ -58,6 +63,8 @@ define([
 
 			removeComponent: function(component) {
 				delete this._components[component];
+
+				this._updateComponentsIndexKey();
 
 				this._entityManager.updateIndex(this, component);
 
@@ -84,6 +91,10 @@ define([
 				return _(this._components).filter(function(component) {
 					return component.isSubscribedTo(componentName);
 				});
+			},
+
+			getComponentsIndexKey: function() {
+				return this._componentsKey;
 			}
 		};
 	}

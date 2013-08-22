@@ -8,7 +8,7 @@ define([
 		return {
 			properties: {
 				pressedKeys: {},
-				pressedMouseButtons: {}
+				pressedMouseButtons: {},
 			},
 
 			init: function() {
@@ -34,7 +34,7 @@ define([
 			},
 
 			mouseButtonIsPressed: function(mouseButton) {
-				return !!this.properties.pressedMouseButtons(mouseButton);
+				return !!this.properties.pressedMouseButtons[mouseButton];
 			},
 
 			mouseUp: function(ev) {

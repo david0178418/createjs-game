@@ -13,15 +13,8 @@ define([
 			_componentIndexes: {},
 			_systems: {},
 
-			_getComponentsIndexes: function(components) {
-				var indexKeys = _.keys(this._componentIndexes);
-				components.sort();
-
-				return _.select(indexKeys, function(key) {
-					var keyComponents = key.split('-');
-
-					return !(_.difference(components, keyComponents).length);
-				});
+			_getIndexKey: function(components) {
+				return components.sort().join('-')
 			},
 
 			registerComponent: function(name, factory) {
@@ -69,9 +62,15 @@ define([
 			},
 
 			getEntities: function(components) {
-				return _.select(this._entities, function(entity) {
-					return !(_.difference(components, entity.getComponents()).length);
-				});
+				var indexKey = this._getIndexKey(components);
+
+				if(this._componentIndexes[indexKey]) {
+					return this._componentIndexes[indexKey];
+				}
+
+				this.createIndex(indexKey);
+
+				return this._componentIndexes[indexKey];
 			},
 
 			createEntity: function() {
@@ -92,24 +91,34 @@ define([
 				return this;
 			},
 
-			createIndex: function(components) {
-				var indexKey = this._components.sort().join('-');
-
+			createIndex: function(indexKey) {
 				if(this._componentIndexes[indexKey]) {
 					return;
 				}
 
-				this._componentIndexes[indexKey] = this.getEntities(components);
+				var components = indexKey.split["-"];
+
+				this._componentIndexes[indexKey] = _.select(this._entities, function(entity) {
+					return !(_.difference(components, entity.getComponents()).length);
+				});
+
+				return this._componentIndexes[indexKey];
 			},
 
 			updateIndex: function(entity, removedComponent) {
-				//var indexes = this._getComponentIndexes(component);
-				var components = entity.getComponents();
+				var indexes,
+					updateKey,
+					components = entity.getComponents();
 
 				if(removedComponent) {
 					components.push(removedComponent);
+					updateKey = this._components.sort().join('-');
+
+					this._componentIndexes[updateKey] = this.getEntities(components);
 				}
-			}
+
+				this.createIndex(entity.getComponentsIndexKey());
+			},
 		};
 	}
 );

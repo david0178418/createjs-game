@@ -63,7 +63,7 @@ window.entityManager = this.entityManager;
 					.registerComponent("user-control", UserControl)
 					.registerSystem("user-movement",  UserMovementSys)
 					//.registerSystem("dash",  DashSys)
-					.registerSystem('dash-charge', DashCharge)
+					.registerSystem('dash-charge', DashChargeSys)
 					.registerSystem("accelerate",  AccelerateSys)
 					.registerSystem("drag",  DragSys)
 					.registerSystem("move",  MoveSys);
