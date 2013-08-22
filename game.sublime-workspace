@@ -1,0 +1,2431 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ent",
+				"entityManager"
+			],
+			[
+				"Dash",
+				"DashCharge"
+			],
+			[
+				"dash",
+				"dashCharge"
+			],
+			[
+				"userC",
+				"userControl"
+			],
+			[
+				"user",
+				"user-control"
+			],
+			[
+				"keyboard",
+				"keyboard-control"
+			],
+			[
+				"ve",
+				"veloctiyDirectionModifier"
+			],
+			[
+				"acc",
+				"accelerate"
+			],
+			[
+				"max",
+				"maxVelocity"
+			],
+			[
+				"acce",
+				"accelerationRate"
+			],
+			[
+				"ac",
+				"acceleration"
+			],
+			[
+				"kebo",
+				"keyboardControl"
+			],
+			[
+				"compon",
+				"componentName"
+			],
+			[
+				"_",
+				"_updatedAttributes"
+			],
+			[
+				"_index",
+				"_getComponentIndexes"
+			],
+			[
+				"_component",
+				"_componentIndicies"
+			],
+			[
+				"getCompone",
+				"getComponents"
+			],
+			[
+				"consol",
+				"console.log(message);"
+			],
+			[
+				"clear",
+				"clearInterval();"
+			],
+			[
+				"console",
+				"console.time(label);"
+			],
+			[
+				"newItemsBa",
+				"newItemsBatch1"
+			],
+			[
+				"debug",
+				"debug_print_backtrace"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"conso",
+				"console.log(message);"
+			],
+			[
+				"startsWith",
+				"startsWithQuery"
+			],
+			[
+				"con",
+				"console.time(label);"
+			],
+			[
+				"startsWi",
+				"startsWithSearch"
+			],
+			[
+				"inbox",
+				"inboxModel"
+			],
+			[
+				"newIte",
+				"newitems"
+			],
+			[
+				"newItems",
+				"newItemsCount"
+			],
+			[
+				"debu",
+				"debug_print_backtrace"
+			],
+			[
+				"fetchBy",
+				"fetchByHash"
+			],
+			[
+				"method",
+				"method_exists"
+			],
+			[
+				"findBy",
+				"findByKey"
+			],
+			[
+				"cred",
+				"credential"
+			],
+			[
+				"number",
+				"number_of_highlights"
+			],
+			[
+				"original",
+				"originalOptions"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"kenshoo",
+				"kenshooServerId"
+			],
+			[
+				"Kensho",
+				"KenshooMetadata"
+			],
+			[
+				"Kenshoo",
+				"kenshooMetadata"
+			],
+			[
+				"jsbe",
+				"jsbeautifier"
+			],
+			[
+				"var_",
+				"var_export"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"val",
+				"assert.ok(value, message);"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"bac",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/systems/user-movement.js",
+			"settings":
+			{
+				"buffer_size": 883,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/systems/move.js",
+			"settings":
+			{
+				"buffer_size": 421,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/systems/drag.js",
+			"settings":
+			{
+				"buffer_size": 769,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/systems/dash-charge.js",
+			"settings":
+			{
+				"buffer_size": 1175,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/game.js",
+			"settings":
+			{
+				"buffer_size": 1840,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/entities/player.js",
+			"settings":
+			{
+				"buffer_size": 509,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/hero-graphic.js",
+			"settings":
+			{
+				"buffer_size": 1354,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "libs/ecs-framework/entity-manager.js",
+			"settings":
+			{
+				"buffer_size": 2473,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/systems/accelerate.js",
+			"settings":
+			{
+				"buffer_size": 1004,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 368.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: up",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"re",
+				"Side Bar: Reveal File"
+			],
+			[
+				"Package Control: li",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 549.0
+	},
+	"console":
+	{
+		"height": 399.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/dgranado/Desktop/game/src/components/dash.js",
+		"/home/dgranado/Desktop/game/libs/ecs-framework/component-base.js",
+		"/home/dgranado/Desktop/game/libs/ecs-framework/entity.js",
+		"/home/dgranado/Desktop/game/src/game.js",
+		"/home/dgranado/Desktop/game/src/components/user-control.js",
+		"/home/dgranado/Desktop/game/config.js",
+		"/home/dgranado/Desktop/game/src/components/position.js",
+		"/home/dgranado/Desktop/game/src/entities/player.js",
+		"/home/dgranado/Desktop/game/libs/ecs-framework/entity-manager.js",
+		"/home/dgranado/Desktop/game/libs/ecs-framework/system-base.js",
+		"/home/dgranado/Desktop/game/src/components/mass.js",
+		"/home/dgranado/Desktop/game/src/systems/accelerate.js",
+		"/home/dgranado/Desktop/game/src/components/dash-charge.js",
+		"/home/dgranado/Desktop/game/src/systems/dash-charge.js",
+		"/home/dgranado/Desktop/game/src/systems/dash.js",
+		"/home/dgranado/Desktop/game/src/components/aura.js",
+		"/home/dgranado/Desktop/game/src/entities/viewport.js",
+		"/home/dgranado/Desktop/game/libs/createjs-2013.05.14.min.js",
+		"/home/dgranado/Desktop/game/src/systems/move.js",
+		"/home/dgranado/Desktop/game/src/systems/user-movement.js",
+		"/home/dgranado/Desktop/game/src/systems/drag.js",
+		"/home/dgranado/Desktop/game/src/keycodes.js",
+		"/home/dgranado/Desktop/game/src/components/acceleration.js",
+		"/home/dgranado/Desktop/game/src/systems/friction.js",
+		"/home/dgranado/Desktop/game/src/components/friction.js",
+		"/home/dgranado/Desktop/game/libs/lodash-1.3.1.min.js",
+		"/home/dgranado/Desktop/game/src/components/velocity.js",
+		"/home/dgranado/Desktop/game/src/components/keyboard-control.js",
+		"/home/dgranado/Desktop/game/src/systems/physics.js",
+		"/home/dgranado/Desktop/game/src/entities/player-controls.js",
+		"/home/dgranado/Desktop/game/main.js",
+		"/home/dgranado/Desktop/game/src/components/circle.js",
+		"/home/dgranado/Desktop/game/libs/entity.js",
+		"/home/dgranado/Desktop/game/libs/entity-manager.js",
+		"/home/dgranado/Desktop/game/libs/system-base.js",
+		"/home/dgranado/Desktop/game/libs/component-base.js",
+		"/home/dgranado/Desktop/game/src/systems/animateShape.js",
+		"/home/dgranado/Desktop/game/src/systems/draw-rectangle.js",
+		"/home/dgranado/Desktop/game/src/stage.js",
+		"/home/dgranado/Desktop/game/src/components/rectangle.js",
+		"/home/dgranado/Desktop/game/.jshintrc",
+		"/home/dgranado/Desktop/game/src/systems/draw-shape.js",
+		"/home/dgranado/Desktop/game/index.html",
+		"/home/dgranado/Desktop/game/src/engine.js",
+		"/home/dgranado/Desktop/game/src/player.js",
+		"/home/dgranado/Desktop/game/libs/component-entity-manager.js",
+		"/home/dgranado/Desktop/game/src/component-registry.js",
+		"/home/dgranado/Desktop/game/libs/component-manager.js",
+		"/home/dgranado/Desktop/game/libs/system-manager.js",
+		"/home/dgranado/.config/sublime-text-3/Packages/Terminal/Default (Linux).sublime-keymap",
+		"/home/dgranado/Desktop/game/libs/underscore-1.5.1.min.js",
+		"/home/dgranado/Desktop/game/libs/require-2.1.8.min.js",
+		"/home/dgranado/Desktop/game/createjs-2013.05.14.min.js",
+		"/var/www/pubs-2011-preview/application/models/Credential.php",
+		"/var/www/pubs-2011-preview/application/controllers/CredentialController.php",
+		"/var/www/pubs-2011-preview/library/Common/Form/CredentialDialog.php",
+		"/var/www/pubs-2011-preview/application/forms/ChooseCredentials.php",
+		"/var/www/pubs-2011-preview/public/js/common.js",
+		"/var/www/pubs-2011-preview/application/views/scripts/generate-styles/global.css",
+		"/var/www/pubs-2011-preview/application/models/Persona.php",
+		"/var/www/pubs-2011-preview/public/css/global.css",
+		"/var/www/pubs-2011-preview/application/views/scripts/partials/credential-item.phtml",
+		"/var/www/pubs-2011-preview/library/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Attr.DefaultTextDir.txt",
+		"/home/dgranado/.config/sublime-text-3/Packages/Web Inspector 3/swi.sublime-settings",
+		"/home/dgranado/.config/sublime-text-3/Packages/Web Inspector 3/Default (Linux).sublime-keymap",
+		"/home/dgranado/.config/sublime-text-3/Packages/User/swi.sublime-settings",
+		"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/publishing/controllers/quick_post_message_controller.js",
+		"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/quick_post/validation/validation.js",
+		"/var/www/pubs-2011-preview/java/src/main/java/com/spredfast/validation/impl/MessageRepostGroupUpdateValidator.java",
+		"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/models/message/message.js",
+		"/var/www/pubs-2011-preview/java/src/main/java/com/spredfast/web/dto/publish/AbstractMessageDTO.java",
+		"/var/www/pubs-2011-preview/library/Zend/Amf/Value/Messaging/AbstractMessage.php",
+		"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/publishing/views/quick_post_message/show.mustache",
+		"/var/www/pubs-2011-preview/application/models/DbTable/Campaigns.php",
+		"/var/www/pubs-2011-preview/application/models/Campaign.php",
+		"/var/www/pubs-2011-preview/application/models/DbTable/Credentials.php",
+		"/var/www/pubs-2011-preview/library/Common/Queue.php",
+		"/var/www/pubs-2011-preview/application/cron/interval/Metrics.php",
+		"/var/www/pubs-2011-preview/application/models/DbTable/CampaignsCredentials.php",
+		"/var/www/pubs-2011-preview/application/models/Credential/Twitter.php",
+		"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/publishing/controllers/quick_post_controller.js",
+		"/var/www/pubs-2011-preview/library/Common/Service/Exception.php",
+		"/var/www/pubs-2011-preview/library/Common/Service/Factory.php",
+		"/var/www/pubs-2011-preview/library/Common/Service/Twitter.php",
+		"/var/www/pubs-2011-preview/application/controllers/CronController.php",
+		"/var/www/pubs-2011-preview/library/Zend/Service/Amazon/Sqs.php",
+		"/var/www/pubs-2011-preview/application/cron/interface.php",
+		"/var/www/pubs-2011-preview/library/Common/Controller.php",
+		"/var/www/pubs-2011-preview/application/views/scripts/credential/auth-error-notification.phtml",
+		"/var/www/pubs-2011-preview/application/models/DbTable/Streams.php",
+		"/var/www/pubs-2011-preview/application/views/scripts/campaign/persona.phtml",
+		"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/spredfast_app/css/voices_and_accounts.less",
+		"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/publishing/controllers/quick_post_confirmation_controller.js",
+		"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/quick_post/form/save/save.js",
+		"/var/www/pubs-2011-preview/java/src/main/java/com/spredfast/web/controller/publish/MessageController.java",
+		"/var/www/pubs-2011-preview/application/models/Cassandra/StreamItemsAbstract.php",
+		"/var/www/pubs-2011-preview/application/models/StreamItem.php",
+		"/var/www/pubs-2011-preview/application/models/Stream/Inbox.php",
+		"/var/www/pubs-2011-preview/application/models/DbTable/InboxItems.php",
+		"/var/www/pubs-2011-preview/application/models/InboxItem.php",
+		"/var/www/pubs-2011-preview/application/models/Cassandra/StreamItems.php",
+		"/var/www/pubs-2011-preview/application/views/scripts/company/list-users-table.ajax.phtml",
+		"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/admin/admin.js",
+		"/var/www/pubs-2011-preview/application/views/scripts/company/list-users.ajax.phtml",
+		"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/admin/css/admin.less",
+		"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/quick_post/response/views/no-credentials.mustache",
+		"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/quick_post/response/response.js",
+		"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/social_inbox/inbox_stream/inbox_stream.js",
+		"/var/www/pubs-2011-preview/application/views/scripts/generate-styles/stream.less",
+		"/var/www/pubs-2011-preview/application/controllers/StreamController.php",
+		"/var/www/pubs-2011-preview/application/views/scripts/partials/user-item-appview.phtml",
+		"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/models/user.js",
+		"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/models/facebook_targeting/facebook_targeting.js",
+		"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/publishing/resources/quickpostInjector.js",
+		"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/publishing/quickpost_targeting/quickpost_targeting.js",
+		"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/facebook_targeting/views/facebook_targeting.mustache",
+		"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/spredfast_app/css/icons.less",
+		"/var/www/pubs-2011-preview/library/Zend/Mail.php",
+		"/var/www/pubs-2011-preview/library/Common/Mail.php",
+		"/var/www/pubs-2011-preview/application/views/scripts/company/list.ajax.phtml",
+		"/var/www/pubs-2011-preview/application/controllers/CompanyController.php",
+		"/var/www/pubs-2011-preview/application/controllers/UserController.php",
+		"/var/www/pubs-2011-preview/application/views/scripts/user-interaction/interactions.ajax.phtml",
+		"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/quick_post/response/message_context/views/stream-item.mustache",
+		"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/models/stream_item/stream_item.js",
+		"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/quick_post/response/message_context/views/message_context.mustache",
+		"/var/www/pubs-2011-preview/application/views/scripts/partials/conversations/influencer-name.phtml",
+		"/var/www/pubs-2011-preview/java/src/main/java/com/spredfast/service/gooddata/impl/dto/GooddataListUsersResponse.java"
+	],
+	"find":
+	{
+		"height": 46.0
+	},
+	"find_in_files":
+	{
+		"height": 153.0,
+		"where_history":
+		[
+			"/home/dgranado/Desktop/game",
+			"/var/www/pubs-2011-preview/application",
+			"/var/www/pubs-2011-preview/",
+			"/var/www/pubs-2011-preview/application/",
+			"/var/www/pubs-2011-preview/application/cron",
+			"/var/www/pubs-2011-preview/application",
+			"/var/www/pubs-2011-preview/",
+			"/var/www/pubs-2011-preview/application",
+			"/var/www/pubs-2011-preview/",
+			"/var/www/pubs-2011-preview/java/",
+			"/var/www/pubs-2011-preview/",
+			"/var/www/pubs-2011-preview/*js",
+			"/var/www/pubs-2011-preview/*.js",
+			"/var/www/pubs-2011-preview/",
+			"/var/www/pubs-2011-preview/application/",
+			"/var/www/pubs-2011-preview/java/",
+			"/var/www/pubs-2011-preview/",
+			"/var/www/pubs-2011-preview/java/",
+			"/var/www/pubs-2011-preview/",
+			"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/",
+			"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/can",
+			"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/can/observe",
+			"/var/www/pubs-2011-preview/jmvc/",
+			"/var/www/pubs-2011-preview/jmvc/src/",
+			"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/",
+			"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/models/",
+			"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/models/inbox_item",
+			"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/inbox_stream",
+			"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/",
+			"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/models/inbox_item",
+			"/var/www/pubs-2011-preview/jmvc/",
+			"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/",
+			"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/bulk_import",
+			"/var/www/pubs-2011-preview/",
+			"/var/www/pubs-2011-preview/java",
+			"/var/www/pubs-2011-preview/jmvc/src/",
+			"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/bulk_import",
+			"/var/www/pubs-2011-preview",
+			"*\n*",
+			".\n*",
+			"*\n*",
+			"*.js\n*",
+			"*.js\n*.*",
+			"*.js\n",
+			"*.js\n*.js",
+			"",
+			"*.js",
+			"",
+			"*.js",
+			"",
+			"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/",
+			"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/social_inbox/",
+			"/var/www/pubs-2011-preview/jmvc/src/main/jmvc/social_inbox/streams",
+			"",
+			"jmvc/*.js",
+			"",
+			"jmvc/*",
+			"jmvc/*.js",
+			"jmvc/*.mustache",
+			"jmvc/*.js",
+			"jmvc/",
+			"",
+			"jmvc",
+			"/jmvc",
+			"jmvc",
+			"",
+			"application",
+			"jmvc",
+			"",
+			"*.js",
+			"",
+			"jmvc/",
+			"application/",
+			"application",
+			"",
+			"*.js",
+			"",
+			"/jmvc/*",
+			"/jmvc",
+			"",
+			"jmvc/*.less",
+			"",
+			"application/",
+			"",
+			"application/",
+			"application/*.js",
+			"jmvc/*.js",
+			"jmvc/",
+			"jmvc",
+			"",
+			"pubs-2011-preview/jmvc/src/main/jmvc/",
+			"",
+			"pubs-2011-preview/jmvc/src/main/jmvc/",
+			"*registerHelper",
+			"*",
+			"*.js",
+			"*.mustache",
+			"*.js",
+			"*.mustache",
+			"*.js",
+			"*.mustache",
+			"*.js",
+			"*.php",
+			"*",
+			"*.phtml",
+			"*.less",
+			"*.js",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"initiativeMasterButtons",
+			"keys",
+			"select",
+			"ash",
+			"Dash",
+			"keyboard",
+			"run",
+			"ttribu",
+			"ttr",
+			"_updatedAttributes",
+			"attribute",
+			"getComponent",
+			"addComp",
+			"_.default",
+			"default",
+			"setProp",
+			"getProp",
+			"getprop",
+			"_createIndex",
+			"_updateIndex",
+			"Update",
+			"_getComponentsIndexes",
+			"_entities",
+			"_createIndex",
+			"_componentInde",
+			"getComponents",
+			"getEntities",
+			"get(",
+			"get",
+			"this._",
+			"copyObject",
+			"Entity",
+			"    ",
+			"left: 0",
+			"375",
+			"hoose",
+			"Choose",
+			"375",
+			"{\n",
+			"375",
+			"credential",
+			"375",
+			"credentials label",
+			"multicheckbox input",
+			"credential-dialog",
+			"phtml",
+			"persona_id",
+			"'(",
+			"(",
+			"App_Form_ChooseCredentials",
+			"element",
+			"$form",
+			"App_Form_ChooseCredentials",
+			"data-select-all-label",
+			"credentials-",
+			"credentials[]",
+			"Available accounts",
+			"renderCredentialDialog",
+			"Available accounts",
+			"choose_credentials",
+			"credentials-selectall",
+			"setLoca",
+			"location",
+			"voices-page-tab-bodies",
+			"credential-item",
+			"address",
+			"onChange",
+			"ode any html and html enti",
+			"forceString",
+			"summary",
+			"text",
+			"\"text",
+			"text",
+			"'text",
+			"\"text",
+			"text",
+			"attr(\"text",
+			"attr('text",
+			"The content of a message may not be changed once it or another message in its repost group has been published",
+			"summary",
+			"onChange",
+			"messageContent",
+			"attr('summary",
+			"attr(\"summary",
+			"placeholderText",
+			"ntity",
+			"summary",
+			"ublishingTokenUrl",
+			"PublishingTokenUrl",
+			"publishing_token_url",
+			"token_editor.ready",
+			"isEditable",
+			"message",
+			"messageContent",
+			"setupTokenEditor",
+			"summary",
+			"token_editor.ready",
+			"importAllAction",
+			"importAllItems",
+			"importAllAction",
+			"importItem",
+			"import-all",
+			"auto-import",
+			"importAll",
+			"import-all",
+			"We encountered an error with",
+			"If the issue persists, complete the Feedback",
+			"We encountered an error with",
+			"We encountered an error with Twitter",
+			"mport",
+			"import",
+			"auto",
+			"suspended_on",
+			"Metrics.php",
+			"Metrics",
+			"new Metrics(",
+			"Metrics",
+			"import",
+			";\n",
+			"fetchByDisplayPersonaId",
+			"mport",
+			"import",
+			"fetchByDisplayPersonaId",
+			"import",
+			"sqs",
+			"180",
+			"'180'",
+			"\"180\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"_updatedProperties",
+			"createIndex",
+			"updateIndex",
+			"	",
+			"$this->usesGroups",
+			"$this->canManageUsers",
+			"$this->isAllowedManageUsers",
+			"$isAllowedManageUsers",
+			"$TEMP",
+			"$time = microtime();",
+			"(microtime() - $time)",
+			"1campaigns_meta_model",
+			"_campaigns_meta_model"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/systems/user-movement.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 883,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8,
+								8
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 1,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"javascript": "/home/dgranado/.nvm//v0.10.15/bin/node"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "dark",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/systems/move.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 421,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 1,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"javascript": "/home/dgranado/.nvm//v0.10.15/bin/node"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "dark",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/systems/drag.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 769,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 1,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"javascript": "/home/dgranado/.nvm//v0.10.15/bin/node"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "dark",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/systems/dash-charge.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1175,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								218,
+								218
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 1,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"javascript": "/home/dgranado/.nvm//v0.10.15/bin/node"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "dark",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/game.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1840,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								957,
+								957
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 1,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"javascript": "/home/dgranado/.nvm//v0.10.15/bin/node"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "dark",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 636.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/entities/player.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 509,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								349,
+								349
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 1,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"javascript": "/home/dgranado/.nvm//v0.10.15/bin/node"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "dark",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/components/hero-graphic.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1354,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1034,
+								1034
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 1,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"javascript": "/home/dgranado/.nvm//v0.10.15/bin/node"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "dark",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 238.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "libs/ecs-framework/entity-manager.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2473,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								178,
+								178
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 1,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"javascript": "/home/dgranado/.nvm//v0.10.15/bin/node"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "dark",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/systems/accelerate.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1004,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1004,
+								1004
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 1,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"javascript": "/home/dgranado/.nvm//v0.10.15/bin/node"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "dark",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 120.0
+	},
+	"project": "game.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"entity",
+				"libs/ecs-framework/entity-manager.js"
+			],
+			[
+				"ba",
+				"libs/ecs-framework/component-base.js"
+			],
+			[
+				"ent",
+				"libs/ecs-framework/entity.js"
+			],
+			[
+				"enti",
+				"libs/ecs-framework/entity.js"
+			],
+			[
+				"user",
+				"src/components/user-control.js"
+			],
+			[
+				"compon",
+				"libs/component-base.js"
+			],
+			[
+				"play",
+				"src/entities/player.js"
+			],
+			[
+				"cir",
+				"src/components/circle.js"
+			],
+			[
+				"circ",
+				"src/components/circle.js"
+			],
+			[
+				"en",
+				"libs/entity.js"
+			],
+			[
+				"ste",
+				"src/stage.js"
+			],
+			[
+				"jsh",
+				".jshintrc"
+			],
+			[
+				"message.js",
+				"jmvc/src/main/jmvc/models/message/message.js"
+			],
+			[
+				"global",
+				"public/css/global.css"
+			],
+			[
+				"common.js",
+				"public/js/common.js"
+			],
+			[
+				"modelcredential",
+				"application/models/Credential.php"
+			],
+			[
+				"modelperson",
+				"application/models/Persona.php"
+			],
+			[
+				"index.ajax",
+				"application/views/scripts/persona/index.ajax.phtml"
+			],
+			[
+				"personacon",
+				"application/controllers/PersonaController.php"
+			],
+			[
+				"credential-",
+				"application/views/scripts/partials/credential-item.phtml"
+			],
+			[
+				"global.",
+				"public/css/global.css"
+			],
+			[
+				"abstractmess",
+				"java/src/main/java/com/spredfast/web/dto/publish/AbstractMessageDTO.java"
+			],
+			[
+				"abstractmessa",
+				"library/Zend/Amf/Value/Messaging/AbstractMessage.php"
+			],
+			[
+				"quickpostmessage",
+				"jmvc/src/main/jmvc/publishing/controllers/quick_post_message_controller.js"
+			],
+			[
+				"commonserver",
+				"library/Common/Service/Twitter.php"
+			],
+			[
+				"credentialcont",
+				"application/controllers/CredentialController.php"
+			],
+			[
+				"cron",
+				"application/controllers/CronController.php"
+			],
+			[
+				"credential.phtml",
+				"application/views/scripts/partials/credential-item.phtml"
+			],
+			[
+				"persona",
+				"application/views/scripts/campaign/persona.phtml"
+			],
+			[
+				"credentialcontro",
+				"application/controllers/CredentialController.php"
+			],
+			[
+				"quick_post_confirmation",
+				"jmvc/src/main/jmvc/publishing/controllers/quick_post_confirmation_controller.js"
+			],
+			[
+				"quickpost_con",
+				"jmvc/src/main/jmvc/publishing/controllers/quick_post_controller.js"
+			],
+			[
+				"messagecontroller",
+				"java/src/main/java/com/spredfast/web/controller/publish/MessageController.java"
+			],
+			[
+				"credential-item",
+				"application/views/scripts/partials/credential-item.phtml"
+			],
+			[
+				"persona.phtml",
+				"application/views/scripts/campaign/persona.phtml"
+			],
+			[
+				"voicesanda",
+				"jmvc/src/main/jmvc/spredfast_app/css/voices_and_accounts.less"
+			],
+			[
+				"streamitemsab",
+				"application/models/Cassandra/StreamItemsAbstract.php"
+			],
+			[
+				"streamitem.php",
+				"application/models/StreamItem.php"
+			],
+			[
+				"streaminbox.php",
+				"application/models/Stream/Inbox.php"
+			],
+			[
+				"modelinbox",
+				"application/models/Stream/Inbox.php"
+			],
+			[
+				"inboxitems",
+				"application/models/DbTable/InboxItems.php"
+			],
+			[
+				"streamitem",
+				"application/models/Cassandra/StreamItems.php"
+			],
+			[
+				"inboxitem",
+				"application/models/InboxItem.php"
+			],
+			[
+				"list-users",
+				"application/views/scripts/company/list-users-table.ajax.phtml"
+			],
+			[
+				"admin.less",
+				"jmvc/src/main/jmvc/admin/css/admin.less"
+			],
+			[
+				"no-cre",
+				"jmvc/src/main/jmvc/quick_post/response/views/no-credentials.mustache"
+			],
+			[
+				"modelfacebooktargeting.js",
+				"jmvc/src/main/jmvc/models/facebook_targeting/facebook_targeting.js"
+			],
+			[
+				"facebooktargeting.mush",
+				"jmvc/src/main/jmvc/facebook_targeting/views/facebook_targeting.mustache"
+			],
+			[
+				"user.js",
+				"jmvc/src/main/jmvc/models/user.js"
+			],
+			[
+				"icons",
+				"jmvc/src/main/jmvc/spredfast_app/css/icons.less"
+			],
+			[
+				"listuser",
+				"application/views/scripts/company/list-users.ajax.phtml"
+			],
+			[
+				"listusertab",
+				"application/views/scripts/company/list-users-table.ajax.phtml"
+			],
+			[
+				"",
+				"application/views/scripts/partials/user-item-appview.phtml"
+			],
+			[
+				"streamcontr",
+				"application/controllers/StreamController.php"
+			],
+			[
+				"useritemapp",
+				"application/views/scripts/partials/user-item-appview.phtml"
+			],
+			[
+				"listusertable",
+				"application/views/scripts/company/list-users-table.ajax.phtml"
+			],
+			[
+				"listusera",
+				"application/views/scripts/company/list-users.ajax.phtml"
+			],
+			[
+				"list.aj",
+				"application/views/scripts/company/list.ajax.phtml"
+			],
+			[
+				"company",
+				"application/controllers/CompanyController.php"
+			],
+			[
+				"interactions.",
+				"application/views/scripts/user-interaction/interactions.ajax.phtml"
+			],
+			[
+				"listusers",
+				"application/views/scripts/company/list-users.ajax.phtml"
+			],
+			[
+				"listusersa",
+				"java/src/main/java/com/spredfast/service/gooddata/impl/dto/GooddataListUsersResponse.java"
+			],
+			[
+				"modelstreamitems.js",
+				"jmvc/src/main/jmvc/models/stream_item/stream_item.js"
+			],
+			[
+				"streamitem.must",
+				"jmvc/src/main/jmvc/quick_post/response/message_context/views/stream-item.mustache"
+			],
+			[
+				"messagecontextmustache",
+				"jmvc/src/main/jmvc/quick_post/response/message_context/views/message_context.mustache"
+			],
+			[
+				"quickpostcontr",
+				"jmvc/src/main/jmvc/publishing/controllers/quick_post_controller.js"
+			],
+			[
+				"facebook_targeting.js",
+				"jmvc/src/main/jmvc/models/facebook_targeting/facebook_targeting.js"
+			],
+			[
+				"spredfast.phtml",
+				"application/views/scripts/partials/stream/spredfast.phtml"
+			],
+			[
+				"listajax",
+				"application/views/scripts/company/list.ajax.phtml"
+			],
+			[
+				"list.aja",
+				"application/views/scripts/company/list.ajax.phtml"
+			],
+			[
+				"buttons.less",
+				"jmvc/src/main/jmvc/spredfast_app/css/buttons.less"
+			],
+			[
+				"admin.js",
+				"jmvc/src/main/jmvc/admin/admin.js"
+			],
+			[
+				"list.ajax.",
+				"application/views/scripts/company/list.ajax.phtml"
+			],
+			[
+				"strteams.js",
+				"jmvc/src/main/jmvc/social_inbox/streams/streams.js"
+			],
+			[
+				"stream.js",
+				"public/js/stream.js"
+			],
+			[
+				"useritem",
+				"application/views/scripts/partials/user-item-appview.phtml"
+			],
+			[
+				"modelstream.",
+				"application/models/Stream.php"
+			],
+			[
+				"streamitemsold",
+				"application/models/Cassandra/StreamItemsOld.php"
+			],
+			[
+				"dbtableinbox",
+				"application/models/DbTable/InboxItems.php"
+			],
+			[
+				"streamitemold",
+				"application/models/Cassandra/StreamItemsOld.php"
+			],
+			[
+				".mustach",
+				"jmvc/src/main/jmvc/history/link.mustache"
+			],
+			[
+				"inbox_stream.js",
+				"jmvc/src/main/jmvc/social_inbox/inbox_stream/inbox_stream.js"
+			],
+			[
+				"facebooktest",
+				"tests/library/Common/Service/FacebookTest.php"
+			],
+			[
+				"inboxitem.",
+				"application/models/InboxItem.php"
+			],
+			[
+				"companyc",
+				"application/controllers/CompanyController.php"
+			],
+			[
+				"metamo",
+				"jmvc/src/main/jmvc/models/campaigns_meta_model/campaigns_meta_model.js"
+			],
+			[
+				"inbox_strea",
+				"jmvc/src/main/jmvc/social_inbox/inbox_stream/inbox_stream.js"
+			],
+			[
+				"inbox_",
+				"jmvc/src/main/jmvc/models/inbox_item/inbox_item.js"
+			],
+			[
+				"infinit",
+				"jmvc/src/main/jmvc/spredfast/infinite_scroll/infinite_scroll.js"
+			],
+			[
+				"inbox",
+				"jmvc/src/main/jmvc/social_inbox/inbox_stream/inbox_stream.js"
+			],
+			[
+				"inboxitemsphp",
+				"application/models/DbTable/InboxItems.php"
+			],
+			[
+				"streamitems",
+				"application/models/Cassandra/StreamItems.php"
+			],
+			[
+				"streamcon",
+				"application/controllers/StreamController.php"
+			],
+			[
+				"responsemust",
+				"jmvc/src/main/jmvc/social_inbox/streams/views/response-details.mustache"
+			],
+			[
+				"streamitemmus",
+				"jmvc/src/main/jmvc/social_inbox/streams/views/stream-item-comments.mustache"
+			],
+			[
+				"quickpostdia",
+				"jmvc/src/main/jmvc/publishing/controllers/quick_post_dialog_controller.js"
+			],
+			[
+				"linkedin_targetingmain",
+				"jmvc/src/main/jmvc/publishing/quickpost_linkedin_targeting/views/main.mustache"
+			],
+			[
+				"twitter_accounts_observe",
+				"jmvc/src/main/jmvc/twitter_account_selector/twitter_accounts_observe.js"
+			],
+			[
+				"twitterjs",
+				"jmvc/src/main/jmvc/twitter_stream_account_manager/twitter_stream_account_manager.js"
+			],
+			[
+				"quickpostcont",
+				"jmvc/src/main/jmvc/publishing/controllers/quick_post_controller.js"
+			],
+			[
+				"node.mus",
+				"jmvc/src/main/jmvc/tree_view/views/node.mustache"
+			],
+			[
+				"treenode",
+				"jmvc/src/main/jmvc/tree_view/models/tree_node_model.js"
+			],
+			[
+				"treevi",
+				"jmvc/src/main/jmvc/tree_view/tree_view.js"
+			],
+			[
+				"application",
+				"application/configs/application.ini"
+			],
+			[
+				"jmv",
+				"application/views/scripts/partials/jmvc.phtml"
+			],
+			[
+				"spredfast_app.js",
+				"jmvc/src/main/jmvc/spredfast_app/spredfast_app.js"
+			],
+			[
+				"publishingerrors",
+				"application/cron/daily/PublishingErrorDigest.php"
+			],
+			[
+				"modeltargeting.js",
+				"jmvc/src/main/jmvc/models/facebook_targeting/facebook_targeting.js"
+			],
+			[
+				"targeting",
+				"jmvc/src/main/jmvc/facebook_targeting/facebook_targeting.js"
+			],
+			[
+				"messagevalidat",
+				"jmvc/src/main/jmvc/quick_post/message_validation/message_validation.js"
+			],
+			[
+				"modelsuser",
+				"application/models/User.php"
+			],
+			[
+				"user-item",
+				"application/views/scripts/partials/user-item-appview.phtml"
+			],
+			[
+				"jqueryuispred",
+				"jmvc/src/main/jmvc/jquery_ui/resources/jquery-ui-spredfast.js"
+			],
+			[
+				"inbox_stream",
+				"jmvc/src/main/jmvc/social_inbox/inbox_stream/inbox_stream.js"
+			],
+			[
+				"inbox_model_tes",
+				"jmvc/src/main/jmvc/social_inbox/inbox_model/inbox_model_tests.js"
+			],
+			[
+				"inbox_model",
+				"jmvc/src/main/jmvc/social_inbox/inbox_model/inbox_model.js"
+			],
+			[
+				"social_inbox",
+				"jmvc/src/main/jmvc/social_inbox/social_inbox.js"
+			],
+			[
+				"menu.js",
+				"jmvc/src/main/jmvc/social_inbox/stream_item/menu/menu.js"
+			],
+			[
+				"inbox_stre",
+				"jmvc/src/main/jmvc/social_inbox/inbox_stream/inbox_stream.js"
+			],
+			[
+				"commoninfl",
+				"library/Common/Inflector.php"
+			],
+			[
+				"inbox_stram",
+				"jmvc/src/main/jmvc/social_inbox/inbox_stream/inbox_stream.js"
+			],
+			[
+				"highlight",
+				"application/models/DbTable/HighlightedItems.php"
+			],
+			[
+				"highlighted",
+				"application/models/DbTable/HighlightedItems.php"
+			],
+			[
+				"model.js",
+				"jmvc/src/main/jmvc/models/rest_model/rest_model.js"
+			],
+			[
+				"icons.le",
+				"jmvc/src/main/jmvc/spredfast_app/css/icons.less"
+			],
+			[
+				"incrementalan",
+				"data/rdbms/deploy/changelog/datamart/delta/20120511-0945-incremental-analytics-etl.xml"
+			],
+			[
+				"logging.xml",
+				"data/rdbms/deploy/changelog/common/logging.xml"
+			],
+			[
+				"inbox_stream_te",
+				"jmvc/src/main/jmvc/social_inbox/inbox_stream/inbox_stream_tests.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 650.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Projects/sl3-bigfro.sublime-project"
+			]
+		],
+		"width": 494.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+		],
+		"width": 1209.0
+	},
+	"settings":
+	{
+		"last_automatic_layout":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		]
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 297.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
