@@ -10,12 +10,7 @@ define([
 			_entities: {},
 			_components: {},
 			_nextEntityId: 1,
-			_componentIndexes: {},
 			_systems: {},
-
-			_getIndexKey: function(components) {
-				return components.sort().join('-')
-			},
 
 			registerComponent: function(name, factory) {
 				if(this._components[name]) {
@@ -62,15 +57,9 @@ define([
 			},
 
 			getEntities: function(components) {
-				var indexKey = this._getIndexKey(components);
-
-				if(this._componentIndexes[indexKey]) {
-					return this._componentIndexes[indexKey];
-				}
-
-				this.createIndex(indexKey);
-
-				return this._componentIndexes[indexKey];
+				return _.select(this._entities, function(entity) {
+					return !(_.difference(components, entity.getComponents()).length);
+				});
 			},
 
 			createEntity: function() {
@@ -89,35 +78,6 @@ define([
 				delete this._entities[entityId];
 
 				return this;
-			},
-
-			createIndex: function(indexKey) {
-				if(this._componentIndexes[indexKey]) {
-					return;
-				}
-
-				var components = indexKey.split["-"];
-
-				this._componentIndexes[indexKey] = _.select(this._entities, function(entity) {
-					return !(_.difference(components, entity.getComponents()).length);
-				});
-
-				return this._componentIndexes[indexKey];
-			},
-
-			updateIndex: function(entity, removedComponent) {
-				var indexes,
-					updateKey,
-					components = entity.getComponents();
-
-				if(removedComponent) {
-					components.push(removedComponent);
-					updateKey = this._components.sort().join('-');
-
-					this._componentIndexes[updateKey] = this.getEntities(components);
-				}
-
-				this.createIndex(entity.getComponentsIndexKey());
 			},
 		};
 	}

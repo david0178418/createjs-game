@@ -31,20 +31,20 @@ define([
 				entity.getComponent('acceleration').set('x', 0).set('y', 0);
 
 				this.startDash(entity);
+			} else {
+				dashCharge.set('power', dashCharge.get('powerRate') * lerpRatio);
 			}
-
-			dashCharge.set('power', dashCharge.get('powerRate') * lerpRatio);
 		},
 
 		startDash: function(entity) {
-			createjs.TweenJS
+			createjs.Tween
 				.get(entity.getComponent('position'))
 				.to({
 					x: Stage.mouseX,
 					y: Stage.mouseY,
 				}, 300)
 				.call(this.finishDash, [entity, Stage.mouseX, Stage.mouseY], this);
-			entity.getComponent('dashCharge').set('power', 0);
+			entity.getComponent('dash-charge').set('power', 0);
 		},
 
 		finishDash: function(entity) {
