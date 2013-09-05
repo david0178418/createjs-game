@@ -1,14 +1,16 @@
 define([
+		'entity-manager',
 		'createjs',
 		'stage'
 	],
 	function(
+		EntityManager,
 		createjs,
 		stage
 	) {
 		'use strict';
 
-		return function() {
+		EntityManager.registerComponent('circle-graphic', function() {
 			return {
 
 				properties: {
@@ -67,6 +69,6 @@ define([
 					this.set('shape', shape);
 				},
 			};
-		};
+		});
 	}
 );

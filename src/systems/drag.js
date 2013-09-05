@@ -1,10 +1,11 @@
 define([
-		'keycodes'
+		'entity-manager',
+		'keycodes',
 	],
-	function(Keycodes) {
+	function(EntityManager, Keycodes) {
 	"use strict";
 
-	return {
+	EntityManager.registerSystem('drag', {
 		components: [
 			'friction',
 			'velocity',
@@ -34,5 +35,5 @@ define([
 
 			return velocity - (drag * directionModifier);
 		}
-	};
+	});
 });

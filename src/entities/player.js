@@ -20,8 +20,8 @@ define([
 			.addComponent('acceleration', {
 				accelerationRate: 1500,
 			})
-			.addComponent('hero-graphic', {
-				color: 'blue',
+			.addComponent('circle-graphic', {
+				color: 'green',
 				radius: 20,
 			});
 	};

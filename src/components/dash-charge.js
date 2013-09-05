@@ -1,13 +1,14 @@
-define(function() {
+define(['entity-manager'], function(EntityManager) {
 	"use strict";
 
-	return function() {
+	EntityManager.registerComponent('dash-charge', function() {
 		return {
 			properties: {
-				powerRate: 100,
+				maxPower: 800,
+				minPower: 300,
+				powerRate: 200,
 				power: 0,
-				rate: 100,
 			}
 		};
-	};
+	});
 });

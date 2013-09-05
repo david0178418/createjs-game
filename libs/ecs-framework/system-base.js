@@ -7,6 +7,10 @@ define([
 		return {
 			run: function(entities, dt) {
 
+				if(this.process) {
+					this.process(dt);
+				}
+
 				if(this.processAll) {
 					this.processAll(entities, dt);
 				}

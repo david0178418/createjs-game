@@ -1,7 +1,7 @@
-define(function() {
+define(['entity-manager'], function(EntityManager) {
 	"use strict";
 
-	return function() {
+	EntityManager.registerComponent('position', function() {
 		return {
 			properties: {
 				x: 0,
@@ -20,5 +20,5 @@ define(function() {
 				this.set('y', y);
 			}
 		};
-	};
+	});
 });

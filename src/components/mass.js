@@ -1,11 +1,11 @@
-define(function() {
+define(['entity-manager'], function(EntityManager) {
 	"use strict";
 
-	return function() {
+	EntityManager.registerComponent('mass', function() {
 		return {
 			properties: {
 				units: 100
 			},
 		};
-	};
+	});
 });

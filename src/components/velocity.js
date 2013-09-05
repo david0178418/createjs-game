@@ -1,7 +1,7 @@
-define(function() {
+define(['entity-manager'], function(EntityManager) {
 	"use strict";
 
-	return function() {
+	EntityManager.registerComponent('velocity', function() {
 		return {
 			properties: {
 				maxX: 0,
@@ -10,5 +10,5 @@ define(function() {
 				y: 0,
 			}
 		};
-	};
+	});
 });

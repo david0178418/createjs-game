@@ -1,7 +1,7 @@
-define(function() {
+define(['entity-manager'], function(EntityManager) {
 	"use strict";
 
-	return {
+	EntityManager.registerSystem('move', {
 		components: [
 			'position',
 			'velocity'
@@ -14,5 +14,5 @@ define(function() {
 			position.set('x', position.get('x') + (lerpRatio * velocity.get('x')));
 			position.set('y', position.get('y') + (lerpRatio * velocity.get('y')));
 		}
-	};
+	});
 });

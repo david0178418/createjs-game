@@ -1,13 +1,14 @@
 define([
-		'keycodes'
+		'enity-manager',
+		'keycodes',
 	],
 	function(Keycodes) {
 	"use strict";
 
-	return {
+	EntityManager.registerSystem('dash', {
 		components: [
 			'keyboard-control',
-			'hero-graphic',
+			'circle-graphic',
 			'velocity',
 		],
 		processOne: function(entity, dt) {
@@ -36,5 +37,5 @@ define([
 				}
 			}
 		}
-	};
+	});
 });

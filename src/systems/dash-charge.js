@@ -1,14 +1,15 @@
 define([
+		'entity-manager',
 		'createjs',
 		'keycodes',
 		'stage',
 	],
-	function(createjs, Keycodes, Stage) {
+	function(EntityManager, createjs, Keycodes, Stage) {
 	"use strict";
 
-	return {
+	EntityManager.registerSystem('dash-charge', {
 		components: [
-			'hero-graphic',
+			'circle-graphic',
 			'position',
 			'velocity',
 			'acceleration',
@@ -16,12 +17,16 @@ define([
 			'user-control',
 		],
 		processOne: function(entity, dt) {
-			var lerpRatio = dt/1000,
+			var time,
+				xDist,
+				yDist,
+				lerpRatio = dt/1000,
 				userControl = entity.getComponent('user-control'),
-				dashCharge = entity.getComponent('dash-charge');
+				dashCharge = entity.getComponent('dash-charge'),
+				power = dashCharge.get('power');
 
 			if(!userControl.mouseButtonIsPressed(0)) {
-				if(!dashCharge.get('power')) {
+				if(!power) {
 					return;
 				}
 
@@ -30,19 +35,36 @@ define([
 				entity.getComponent('velocity').set('x', 0).set('y', 0);
 				entity.getComponent('acceleration').set('x', 0).set('y', 0);
 
-				this.startDash(entity);
+				xDist = Stage.mouseX - entity.getComponent('position').get('x');
+				yDist = Stage.mouseY - entity.getComponent('position').get('y');
+
+				time = Math.sqrt(xDist*xDist + yDist*yDist) / 7;
+
+				console.log(time);
+
+				this.startDash(entity, time);
 			} else {
-				dashCharge.set('power', dashCharge.get('powerRate') * lerpRatio);
+				if(!power) {
+					power = dashCharge.get('minPower');
+				} else if(power < dashCharge.get('maxPower')) {
+					power = power + dashCharge.get('powerRate') * lerpRatio;
+
+					if(power > dashCharge.get('maxPower')) {
+						power = dashCharge.get('maxPower');
+					}
+				}
+
+				dashCharge.set('power', power);
 			}
 		},
 
-		startDash: function(entity) {
+		startDash: function(entity, time) {
 			createjs.Tween
 				.get(entity.getComponent('position'))
 				.to({
 					x: Stage.mouseX,
 					y: Stage.mouseY,
-				}, 300)
+				}, time)
 				.call(this.finishDash, [entity, Stage.mouseX, Stage.mouseY], this);
 			entity.getComponent('dash-charge').set('power', 0);
 		},
@@ -50,5 +72,5 @@ define([
 		finishDash: function(entity) {
 			entity.addComponent('user-control');
 		}
-	};
+	});
 });

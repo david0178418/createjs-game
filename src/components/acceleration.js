@@ -1,7 +1,7 @@
-define(function() {
-	"use strict";
+define(['entity-manager'], function(EntityManager) {
+	'use strict';
 
-	return function() {
+	EntityManager.registerComponent('acceleration', function() {
 		return {
 			properties: {
 				accelerationRate: 0,
@@ -10,5 +10,5 @@ define(function() {
 				y: 0,
 			},
 		};
-	};
+	});
 });

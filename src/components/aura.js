@@ -1,14 +1,16 @@
 define([
+		'entity-manager',
 		'createjs',
 		'stage'
 	],
 	function(
+		EntityManager,
 		createjs,
 		stage
 	) {
 		'use strict';
 
-		return function() {
+		var Aura = function() {
 			return {
 
 				properties: {
@@ -68,5 +70,9 @@ define([
 				},
 			};
 		};
+
+		
+
+		return Aura;
 	}
 );

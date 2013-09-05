@@ -1,12 +1,13 @@
 define([
-		'keycodes'
+		'entity-manager',
+		'keycodes',
 	],
-	function(Keycodes) {
+	function(EntityManager, Keycodes) {
 	"use strict";
 
-	return {
+	EntityManager.registerSystem('user-movement', {
 		components: [
-			'hero-graphic',
+			'circle-graphic',
 			'user-control',
 			'acceleration',
 		],
@@ -31,5 +32,5 @@ define([
 				acceleration.set('x', 0);
 			}
 		}
-	};
+	});
 });

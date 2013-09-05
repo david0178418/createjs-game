@@ -1,10 +1,11 @@
 define([
-		'underscore'
+		'entity-manager',
+		'underscore',
 	],
-	function(_) {
+	function(EntityManager, _) {
 	"use strict";
 
-	return function() {
+	EntityManager.registerComponent('user-control', function() {
 		return {
 			properties: {
 				pressedKeys: {},
@@ -45,5 +46,5 @@ define([
 				this.properties.pressedMouseButtons[ev.button] = true;
 			}
 		};
-	};
+	});
 });

@@ -1,7 +1,7 @@
-define(function() {
+define(['entity-manager'], function(EntityManager) {
 	"use strict";
 
-	return {
+	EntityManager.registerSystem('accelerate', {
 		components: [
 			'velocity',
 			'acceleration',
@@ -29,5 +29,5 @@ define(function() {
 
 			return velocity + acceleration;
 		}
-	};
+	});
 });
