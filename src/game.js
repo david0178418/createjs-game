@@ -1,37 +1,32 @@
-define([
-		'underscore',
-		'createjs',
-		'entity-manager',
-		'stage',
-		//Entities
-		'entities/missile-spawner',
-		'entities/player',
-		//Components
-		'components/acceleration',
-		'components/circle-graphic',
-		'components/dash-charge',
-		'components/friction',
-		'components/missle-launcher',
-		'components/position',
-		'components/user-control',
-		'components/velocity',
+define(function(require) {
+		'use strict';
+		
+		var _ = require('underscore'),
+			createjs = require('createjs'),
+			EntityManager = require('entity-manager'),
+			Stage = require('stage'),
+
+			//Entities
+			missileSpawnerFactory = require('entities/missile-spawner'),
+			playerFactory = require('entities/player');
+
+		//Component)s
+		require('components/acceleration'),
+		require('components/circle-graphic'),
+		require('components/dash-charge'),
+		require('components/friction'),
+		require('components/missle-launcher'),
+		require('components/position'),
+		require('components/user-control'),
+		require('components/velocity'),
+
 		//Systems
-		'systems/accelerate',
-		'systems/dash-charge',
-		'systems/drag',
-		'systems/move',
-		'systems/spawn-missiles',
-		'systems/user-movement',
-	],
-	function(
-		_,
-		createjs,
-		EntityManager,
-		Stage,
-		missileSpawnerFactory,
-		playerFactory
-	) {
-		"use strict";
+		require('systems/accelerate'),
+		require('systems/dash-charge'),
+		require('systems/drag'),
+		require('systems/move'),
+		require('systems/spawn-missiles'),
+		require('systems/user-movement');
 
 		return {
 			init: function(config) {
